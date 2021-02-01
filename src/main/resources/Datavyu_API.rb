@@ -952,7 +952,7 @@ alias :setVariable! :set_column!
 # @param args_to_keep [Array<String>]: names of codes to keep from original column
 # @return [RColumn] Ruby object representation of the rel column
 # @example
-#       rel_trial = make_rel("rel.trial", "trial", 2, "onset", "trialnum", "unit")
+#       rel_trial = make_rel("rel_trial", "trial", 2, "onset", "trialnum", "unit")
 def make_reliability(relname, var_to_copy, multiple_to_keep, *args_to_keep)
   # Get the primary variable from the DB
 
